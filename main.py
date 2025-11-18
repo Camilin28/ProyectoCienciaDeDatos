@@ -10,7 +10,7 @@ from sklearn.linear_model import LinearRegression
 from sklearn.metrics import mean_squared_error, r2_score
 
 
-DATA_PATH = 'database futbol/results.csv' # Ajusta ruta si es necesario
+DATA_PATH = '../data/results.csv'
 
 
 df = pd.read_csv(DATA_PATH)
